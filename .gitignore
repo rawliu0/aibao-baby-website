@@ -1,0 +1,15 @@
+# 依赖和缓存
+node_modules/
+.npm/
+.cache/
+
+# IDE 和系统文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log

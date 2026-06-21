@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公司产品 - 爱宝母婴</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 头部第一行：Logo行 -->
+  <header class="header-top">
+    <div class="container">
+      <div class="row align-items-center py-3">
+        <div class="col-lg-3 col-md-4 col-12"><a href="index.html" class="header-logo"><i class="fas fa-baby"></i>爱宝母婴</a></div>
+        <div class="col-lg-5 col-md-4 col-12 mt-2 mt-md-0"><div class="search-box"><input type="text" placeholder="搜索产品..."><button type="submit"><i class="fas fa-search"></i></button></div></div>
+        <div class="col-lg-4 col-md-4 col-12 mt-2 mt-md-0"><div class="header-actions"><a href="#"><i class="fas fa-user-plus"></i> 注册</a><a href="#"><i class="fas fa-sign-in-alt"></i> 登录</a><a href="#" class="btn-register">免费注册</a></div></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 头部第二行：主要菜单（产品列表选中） -->
+  <nav class="header-nav">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="products.html" class="active">公司产品</a></li>
+        <li><a href="news.html">公司新闻</a></li>
+        <li><a href="feedback.html">留言反馈</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 页面横幅 -->
+  <section class="page-banner">
+    <div class="container"><h1>公司产品</h1><p>精选优质母婴产品 · 给宝宝最好的呵护</p></div>
+  </section>
+
+  <!-- 产品列表：左侧分类/筛选 + 右侧产品列表 -->
+  <section class="py-5" style="background: var(--bg-gray);">
+    <div class="container">
+      <!-- 面包屑 -->
+      <div class="breadcrumb-nav mb-4"><a href="index.html">首页</a> <i class="fas fa-angle-right mx-2"></i> <span>公司产品</span></div>
+      <div class="row">
+        <!-- 左侧：产品分类和筛选 -->
+        <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+          <div class="sidebar-menu mb-4">
+            <div class="menu-title"><i class="fas fa-th-list"></i> 产品分类</div>
+            <ul>
+              <li><a href="products.html" class="active">全部产品</a></li>
+              <li><a href="products.html?cat=feeding">喂养用品</a></li>
+              <li><a href="products.html?cat=bath">洗护用品</a></li>
+              <li><a href="products.html?cat=travel">出行用品</a></li>
+              <li><a href="products.html?cat=clothing">服饰用品</a></li>
+              <li><a href="products.html?cat=diaper">纸尿裤系列</a></li>
+            </ul>
+          </div>
+          <!-- 筛选条件 -->
+          <div class="filter-section">
+            <h5><i class="fas fa-filter"></i> 筛选条件</h5>
+            <div class="mb-3"><label class="form-label" style="font-size:13px;">适用年龄</label><select class="form-select"><option>全部</option><option>0-6个月</option><option>6-12个月</option><option>1-3岁</option><option>3岁以上</option></select></div>
+            <div class="mb-3"><label class="form-label" style="font-size:13px;">价格区间</label><select class="form-select"><option>全部</option><option>100元以下</option><option>100-300元</option><option>300-500元</option><option>500元以上</option></select></div>
+            <div class="mb-3"><label class="form-label" style="font-size:13px;">排序方式</label><select class="form-select"><option>默认排序</option><option>最新上架</option><option>价格从低到高</option><option>价格从高到低</option></select></div>
+            <button class="btn-submit w-100" style="padding:8px;">筛选</button>
+          </div>
+        </div>
+
+        <!-- 右侧：产品列表 + 分页 -->
+        <div class="col-lg-9 col-md-8">
+          <div class="content-area">
+            <!-- 产品列表项 1 -->
+            <div class="list-item">
+              <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#a8e6cf,#88d8b0);"><i class="fas fa-baby-carriage"></i></div></div>
+              <div class="item-info">
+                <h4><a href="product-detail.html">轻便折叠婴儿推车 AB-3001</a></h4>
+                <p class="item-desc">超轻铝合金车架，净重仅5.8kg，一键折叠收纳，五点式安全带设计，四轮独立避震，为宝宝提供安全舒适的出行体验。2027年全新升级款，增加遮阳蓬UPF50+防晒功能。</p>
+                <div class="item-meta"><span class="item-tag">出行用品</span><span style="font-size:12px;color:var(--text-light);">适用0-3岁</span><span style="font-size:12px;color:var(--text-light);">上架：2027-05</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+              </div>
+            </div>
+            <!-- 产品列表项 2 -->
+            <div class="list-item">
+              <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#ffd3b6,#ffaaa5);"><i class="fas fa-baby"></i></div></div>
+              <div class="item-info">
+                <h4><a href="product-detail.html">防胀气PPSU奶瓶 AB-5200</a></h4>
+                  <p class="item-desc">德国进口PPSU材质，耐高温180°C，仿母乳实感奶嘴，双进气孔防胀气设计。瓶身刻度清晰，宽口径易清洗，是宝宝断奶过渡期的理想选择。</p>
+                  <div class="item-meta"><span class="item-tag">喂养用品</span><span style="font-size:12px;color:var(--text-light);">适用0-18个月</span><span style="font-size:12px;color:var(--text-light);">上架：2027-03</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+                </div>
+              </div>
+              <!-- 产品列表项 3 -->
+              <div class="list-item">
+                <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#c3bef0,#cadefc);"><i class="fas fa-box"></i></div></div>
+                <div class="item-info">
+                  <h4><a href="product-detail.html">超薄透气纸尿裤 AB-8100</a></h4>
+                  <p class="item-desc">3D珍珠棉柔面层，5000+透气微孔设计，超强瞬吸锁水芯体，可承托6次尿量，干爽长达12小时。弹力大环腰设计，贴合不侧漏，呵护宝宝娇嫩小屁屁。</p>
+                  <div class="item-meta"><span class="item-tag">纸尿裤系列</span><span style="font-size:12px;color:var(--text-light);">适用0-2岁</span><span style="font-size:12px;color:var(--text-light);">上架：2027-04</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+                </div>
+              </div>
+              <!-- 产品列表项 4 -->
+              <div class="list-item">
+                <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#f8e3a0,#f5d76e);"><i class="fas fa-tshirt"></i></div></div>
+                <div class="item-info">
+                  <h4><a href="product-detail.html">纯棉新生儿连体衣 AB-6200</a></h4>
+                  <p class="item-desc">100%新疆长绒棉，A类婴幼儿安全标准，无荧光剂、无甲醛。暗扣开裆设计方便更换尿布，柔软亲肤透气吸汗，多款可爱图案可选。</p>
+                  <div class="item-meta"><span class="item-tag">服饰用品</span><span style="font-size:12px;color:var(--text-light);">适用0-12个月</span><span style="font-size:12px;color:var(--text-light);">上架：2027-02</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+                </div>
+              </div>
+              <!-- 产品列表项 5 -->
+              <div class="list-item">
+                <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#a0e7e5,#b4f8c8);"><i class="fas fa-pump-soap"></i></div></div>
+                <div class="item-info">
+                  <h4><a href="product-detail.html">婴儿温和洗发沐浴露二合一 AB-7200</a></h4>
+                  <p class="item-desc">天然植物配方，无泪温和不刺激，pH值弱酸性贴近宝宝肌肤。添加燕麦精华和金盏花提取物，洗后肌肤柔滑水润。</p>
+                  <div class="item-meta"><span class="item-tag">洗护用品</span><span style="font-size:12px;color:var(--text-light);">适用0岁以上</span><span style="font-size:12px;color:var(--text-light);">上架：2027-01</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+                </div>
+              </div>
+              <!-- 产品列表项 6 -->
+              <div class="list-item">
+                <div class="item-img"><div class="img-placeholder" style="background:linear-gradient(135deg,#fbc2eb,#a6c1ee);"><i class="fas fa-bath"></i></div></div>
+                <div class="item-info">
+                  <h4><a href="product-detail.html">婴儿折叠浴盆 AB-7300</a></h4>
+                  <p class="item-desc">食品级PP材质，可折叠设计节省空间，自带感温塞实时监测水温。人体工学躺卧设计，配防滑垫，让宝宝享受安全舒适沐浴时光。</p>
+                  <div class="item-meta"><span class="item-tag">洗护用品</span><span style="font-size:12px;color:var(--text-light);">适用0-3岁</span><span style="font-size:12px;color:var(--text-light);">上架：2027-03</span><a href="product-detail.html" class="btn-outline-primary-custom" style="text-decoration:none;">查看详情</a></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 分页 -->
+            <div class="pagination-wrapper">
+              <ul class="pagination">
+                <li><a href="#"><i class="fas fa-angle-left"></i></a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部（共用） -->
+    <footer class="site-footer">
+      <div class="footer-top"><div class="container"><div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-12"><div class="footer-col"><h5>关于爱宝母婴</h5><p>爱宝母婴用品有限公司成立于2017年，专注母婴产品研发与销售。用爱心和专业，为每一个家庭带来安心与快乐。</p><div class="mt-3"><div class="contact-item"><i class="fas fa-map-marker-alt"></i> 深圳市南山区科技园爱宝大厦</div><div class="contact-item"><i class="fas fa-phone"></i> 400-888-2027</div><div class="contact-item"><i class="fas fa-envelope"></i> service@aibao-baby.com</div></div></div></div>
+        <div class="col-lg-2 col-md-6 col-12"><div class="footer-col"><h5>快速导航</h5><ul><li><a href="index.html"><i class="fas fa-angle-right"></i> 网站首页</a></li><li><a href="about.html"><i class="fas fa-angle-right"></i> 关于我们</a></li><li><a href="products.html"><i class="fas fa-angle-right"></i> 公司产品</a></li><li><a href="news.html"><i class="fas fa-angle-right"></i> 公司新闻</a></li><li><a href="feedback.html"><i class="fas fa-angle-right"></i> 留言反馈</a></li></ul></div></div>
+        <div class="col-lg-3 col-md-6 col-12"><div class="footer-col"><h5>产品分类</h5><ul><li><a href="products.html"><i class="fas fa-angle-right"></i> 喂养用品</a></li><li><a href="products.html"><i class="fas fa-angle-right"></i> 洗护用品</a></li><li><a href="products.html"><i class="fas fa-angle-right"></i> 出行用品</a></li><li><a href="products.html"><i class="fas fa-angle-right"></i> 服饰用品</a></li><li><a href="products.html"><i class="fas fa-angle-right"></i> 纸尿裤系列</a></li></ul></div></div>
+        <div class="col-lg-3 col-md-6 col-12"><div class="footer-col"><h5>关注我们</h5><p>扫描二维码关注爱宝母婴公众号，获取最新产品资讯与育儿知识。</p><div class="img-placeholder mt-3" style="width:120px;height:120px;background:var(--white);color:var(--text-mid);border-radius:8px;"><small>微信公众号<br>二维码</small></div></div></div>
+      </div></div></div>
+      <div class="footer-bottom"><div class="container"><p>&copy; 2017-2027 爱宝母婴用品有限公司 版权所有 | 粤ICP备2027XXXXXX号 | 用心呵护每一个新生命</p></div></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

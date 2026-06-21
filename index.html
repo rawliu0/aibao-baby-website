@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱宝母婴 - 专注母婴健康，用心呵护每一个宝宝</title>
+  <meta name="description" content="爱宝母婴用品公司，专注母婴产品研发与销售，提供高品质婴儿推车、奶瓶、纸尿裤、婴儿服饰等产品。">
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====== 头部：第一行 Logo行（无背景） ====== -->
+  <header class="header-top">
+    <div class="container">
+      <div class="row align-items-center py-3">
+        <!-- Logo：左侧 -->
+        <div class="col-lg-3 col-md-4 col-12">
+          <a href="index.html" class="header-logo">
+            <i class="fas fa-baby"></i>爱宝母婴
+          </a>
+        </div>
+        <!-- 搜索框：中间 -->
+        <div class="col-lg-5 col-md-4 col-12 mt-2 mt-md-0">
+          <div class="search-box">
+            <input type="text" placeholder="搜索产品、资讯...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+        <!-- 注册/登录：右侧 -->
+        <div class="col-lg-4 col-md-4 col-12 mt-2 mt-md-0">
+          <div class="header-actions">
+            <a href="#"><i class="fas fa-user-plus"></i> 注册</a>
+            <a href="#"><i class="fas fa-sign-in-alt"></i> 登录</a>
+            <a href="#" class="btn-register">免费注册</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== 头部：第二行 主要菜单（带背景） ====== -->
+  <nav class="header-nav">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">网站首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="products.html">公司产品</a></li>
+        <li><a href="news.html">公司新闻</a></li>
+        <li><a href="feedback.html">留言反馈</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== 轮播图（CSS动画，无JS，高度250px） ====== -->
+  <section class="carousel-wrapper">
+    <div class="carousel-slides">
+      <!-- 轮播图 1 -->
+      <div class="carousel-slide">
+        <div class="carousel-content">
+          <h2>用心呵护每一个新生命</h2>
+          <p>爱宝母婴——专注母婴健康，给妈妈和宝宝最贴心的关爱</p>
+        </div>
+      </div>
+      <!-- 轮播图 2 -->
+      <div class="carousel-slide">
+        <div class="carousel-content">
+          <h2>2027夏季新品上市</h2>
+          <p>全新婴儿推车系列，轻便折叠，安全舒适，带宝宝轻松出行</p>
+        </div>
+      </div>
+      <!-- 轮播图 3 -->
+      <div class="carousel-slide">
+        <div class="carousel-content">
+          <h2>品质保障·值得信赖</h2>
+          <p>10年母婴行业经验，服务超过50万家庭，用爱守护宝宝健康成长</p>
+        </div>
+      </div>
+    </div>
+    <!-- 轮播指示器 -->
+    <div class="carousel-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ====== 推荐商品板块（4个商品） ====== -->
+  <section class="py-5" style="background: var(--bg-gray);">
+    <div class="container">
+      <div class="section-title d-flex justify-content-between align-items-center">
+        <div style="flex:1;"></div>
+        <div>
+          <h2>推荐商品</h2>
+          <p>精选优质母婴产品，给宝宝最好的呵护</p>
+        </div>
+        <div style="flex:1; text-align: right;">
+          <a href="products.html" class="more-link">查看更多 <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- 商品1 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="product-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #a8e6cf, #88d8b0);">
+                <i class="fas fa-baby-carriage"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">轻便折叠婴儿推车</h5>
+              <p class="card-text">超轻铝合金车架，一键折叠收纳，五点式安全带，给宝宝舒适安全的出行体验。</p>
+              <span class="card-tag">出行用品</span>
+            </div>
+          </div>
+        </div>
+        <!-- 商品2 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="product-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #ffd3b6, #ffaaa5);">
+                <i class="fas fa-baby"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">防胀气PPSU奶瓶</h5>
+              <p class="card-text">德国进口PPSU材质，仿母乳实感奶嘴，防胀气设计，让宝宝喝奶更顺畅舒心。</p>
+              <span class="card-tag">喂养用品</span>
+            </div>
+          </div>
+        </div>
+        <!-- 商品3 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="product-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #c3bef0, #cadefc);">
+                <i class="fas fa-box"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">超薄透气纸尿裤</h5>
+              <p class="card-text">3D珍珠棉柔面层，5000+透气微孔，超强瞬吸锁水，干爽12小时呵护宝宝小屁屁。</p>
+              <span class="card-tag">纸尿裤系列</span>
+            </div>
+          </div>
+        </div>
+        <!-- 商品4 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="product-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #f8e3a0, #f5d76e);">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">纯棉新生儿连体衣</h5>
+              <p class="card-text">100%新疆长绒棉，A类婴幼儿安全标准，柔软亲肤，透气吸汗，呵护宝宝娇嫩肌肤。</p>
+              <span class="card-tag">服饰用品</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 新闻资讯板块（4个新闻） ====== -->
+  <section class="py-5" style="background: var(--white);">
+    <div class="container">
+      <div class="section-title d-flex justify-content-between align-items-center">
+        <div style="flex:1;"></div>
+        <div>
+          <h2>新闻资讯</h2>
+          <p>了解爱宝母婴最新动态与育儿知识</p>
+        </div>
+        <div style="flex:1; text-align: right;">
+          <a href="news.html" class="more-link">查看更多 <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- 新闻1 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="news-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-date"><i class="far fa-clock"></i> 2027-06-15</div>
+              <h5 class="card-title">爱宝母婴2027年夏季新品发布会圆满成功</h5>
+              <p class="card-text">6月15日，爱宝母婴在深圳隆重举办2027夏季新品发布会，推出多款创新母婴产品...</p>
+            </div>
+          </div>
+        </div>
+        <!-- 新闻2 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="news-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                <i class="fas fa-heart"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-date"><i class="far fa-clock"></i> 2027-06-10</div>
+              <h5 class="card-title">"爱在身边"——母婴健康知识讲座走进社区</h5>
+              <p class="card-text">爱宝母婴联合社区开展"爱在身边"母婴健康知识公益讲座，为新手爸妈提供科学育儿指导...</p>
+            </div>
+          </div>
+        </div>
+        <!-- 新闻3 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="news-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                <i class="fas fa-trophy"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-date"><i class="far fa-clock"></i> 2027-05-28</div>
+              <h5 class="card-title">爱宝母婴荣获2027年母婴行业优秀企业称号</h5>
+              <p class="card-text">在中国母婴行业协会举办的年度评选中，爱宝母婴凭借卓越的产品品质和优质服务获此殊荣...</p>
+            </div>
+          </div>
+        </div>
+        <!-- 新闻4 -->
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="news-card">
+            <div class="card-img">
+              <div class="img-placeholder" style="background: linear-gradient(135deg, #a1c4fd, #c2e9fb);">
+                <i class="fas fa-sun"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-date"><i class="far fa-clock"></i> 2027-05-20</div>
+              <h5 class="card-title">夏季婴儿护理指南——让宝宝清凉一夏</h5>
+              <p class="card-text">夏季来临，如何正确护理宝宝娇嫩肌肤？爱宝育婴专家为您分享科学实用的夏季婴儿护理小贴士...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 关于我们板块（文字介绍+特色） ====== -->
+  <section class="about-section py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>关于爱宝母婴</h2>
+        <p>十年匠心 · 用爱守护每一个新生命</p>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-7">
+          <p class="about-text">
+            爱宝母婴用品有限公司成立于2017年，是一家集研发、设计、生产、销售于一体的专业母婴用品企业。公司总部位于深圳，拥有现代化生产基地和专业的研发团队。
+          </p>
+          <p class="about-text">
+            十年来，我们始终秉承"用心呵护每一个新生命"的品牌理念，致力于为妈妈和宝宝提供安全、健康、优质的母婴产品。产品涵盖喂养用品、洗护用品、出行用品、服饰用品、纸尿裤等多个系列，深受广大消费者信赖与喜爱。
+          </p>
+          <p class="about-text">
+            截至目前（2027年），爱宝母婴已服务超过50万家庭，产品远销全国各省市，并在多个电商平台开设官方旗舰店。我们不断追求产品创新与品质提升，只为给宝宝和妈妈带来更美好的生活体验。
+          </p>
+          <a href="about.html" class="btn-outline-primary-custom" style="display:inline-block; text-decoration:none;">了解更多</a>
+        </div>
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <div class="img-placeholder" style="width:100%; height:280px; border-radius:8px; background: linear-gradient(135deg, #008080, #20b2aa);">
+            <i class="fas fa-building" style="font-size:64px;"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 我们的特色 -->
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4>品质保证</h4>
+            <p>所有产品均通过国家3C认证和欧盟CE安全认证，严格把控每一道质量关卡。</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-flask"></i></div>
+            <h4>专业研发团队</h4>
+            <p>拥有20+人研发团队，与多家高校合作，持续创新，获得50余项产品专利。</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-headset"></i></div>
+            <h4>贴心售后服务</h4>
+            <p>7x24小时客服在线，30天无忧退换，全国联保服务，让您购物无忧。</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+            <h4>绿色环保材料</h4>
+            <p>坚持使用环保可降解材料，拒绝有害化学添加，给宝宝一个绿色的未来。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 底部内容（共用） ====== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <!-- 关于爱宝 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="footer-col">
+              <h5>关于爱宝母婴</h5>
+              <p>爱宝母婴用品有限公司成立于2017年，专注母婴产品研发与销售。用爱心和专业，为每一个家庭带来安心与快乐。</p>
+              <div class="mt-3">
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i> 深圳市南山区科技园爱宝大厦</div>
+                <div class="contact-item"><i class="fas fa-phone"></i> 400-888-2027</div>
+                <div class="contact-item"><i class="fas fa-envelope"></i> service@aibao-baby.com</div>
+              </div>
+            </div>
+          </div>
+          <!-- 快速导航 -->
+          <div class="col-lg-2 col-md-6 col-12">
+            <div class="footer-col">
+              <h5>快速导航</h5>
+              <ul>
+                <li><a href="index.html"><i class="fas fa-angle-right"></i> 网站首页</a></li>
+                <li><a href="about.html"><i class="fas fa-angle-right"></i> 关于我们</a></li>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 公司产品</a></li>
+                <li><a href="news.html"><i class="fas fa-angle-right"></i> 公司新闻</a></li>
+                <li><a href="feedback.html"><i class="fas fa-angle-right"></i> 留言反馈</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- 产品分类 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="footer-col">
+              <h5>产品分类</h5>
+              <ul>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 喂养用品</a></li>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 洗护用品</a></li>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 出行用品</a></li>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 服饰用品</a></li>
+                <li><a href="products.html"><i class="fas fa-angle-right"></i> 纸尿裤系列</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- 关注我们 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="footer-col">
+              <h5>关注我们</h5>
+              <p>扫描二维码关注爱宝母婴公众号，获取最新产品资讯与育儿知识。</p>
+              <div class="img-placeholder mt-3" style="width:120px; height:120px; background: var(--white); color: var(--text-mid); border-radius: 8px;">
+                <small>微信公众号<br>二维码</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2017-2027 爱宝母婴用品有限公司 版权所有 | 粤ICP备2027XXXXXX号 | 用心呵护每一个新生命</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS（仅用于响应式导航等基础功能） -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
