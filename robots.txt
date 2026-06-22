@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aibao-baby-website.vercel.app/sitemap.xml
+Sitemap: https://www.20140401.xyz/sitemap.xml
